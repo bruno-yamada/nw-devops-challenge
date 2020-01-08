@@ -1,0 +1,8 @@
+---
+- name: check whether nginx exists
+  shell: command -v nginx
+  ignore_errors: True
+  register: nginx_installed
+
+- include_tasks: install.yml
+  when: nginx_installed is failed

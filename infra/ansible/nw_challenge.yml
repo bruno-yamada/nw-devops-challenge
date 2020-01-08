@@ -1,0 +1,11 @@
+---
+- name: Server Setup
+  hosts: nw_challenge
+  remote_user: centos
+  gather_facts: True
+  become_user: root
+  become: true
+  roles:
+    # - docker
+    # - nginx
+    - deploy

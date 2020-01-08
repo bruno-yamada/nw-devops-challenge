@@ -1,0 +1,11 @@
+config.ini
+
+infra/terraform/.*
+infra/terraform/export.sh
+infra/terraform/terraform.tfstate
+infra/terraform/terraform.tfstate.backup
+
+infra/ansible/certificates/nw-challenge.bruno-yamada.com
+
+docker-compose.yml
+
