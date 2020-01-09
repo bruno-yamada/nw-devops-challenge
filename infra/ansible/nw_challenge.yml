@@ -7,5 +7,4 @@
   become: true
   roles:
     - docker
-    - nginx
     - deploy
