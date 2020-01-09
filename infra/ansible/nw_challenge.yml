@@ -6,6 +6,6 @@
   become_user: root
   become: true
   roles:
-    # - docker
-    # - nginx
+    - docker
+    - nginx
     - deploy
